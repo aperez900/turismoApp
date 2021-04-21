@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#72E8E8E8"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/fotoLugarMain"
+        android:layout_width="395dp"
+        android:layout_height="301dp"
+        android:padding="5dp"
+        android:src="@drawable/montain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/LugarMain"
+        android:layout_width="297dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:padding="5dp"
+        android:text="TELESFERICO MUNICIPAL"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/cornflowerblue"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fotoLugarMain" />
+
+
+    <ImageView
+        android:id="@+id/mapMain"
+        android:layout_width="64dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="328dp"
+        android:layout_marginTop="308dp"
+        android:padding="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ubic" />
+
+
+    <TextView
+        android:id="@+id/MunicipioMain"
+        android:layout_width="163dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins_light"
+        android:padding="0dp"
+        android:text="Jardin Antioquia"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="#D5000000"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LugarMain" />
+
+    <TextView
+        android:id="@+id/distanciaMain"
+        android:layout_width="163dp"
+        android:layout_height="24dp"
+        android:fontFamily="@font/poppins_light"
+        android:padding="0dp"
+        android:text="Distancia: 1500km"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="#E6000000"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MunicipioMain" />
+
+    <TextView
+        android:id="@+id/estrellaMain"
+        android:layout_width="163dp"
+        android:layout_height="24dp"
+        android:fontFamily="@font/poppins_light"
+        android:padding="0dp"
+        android:text="5 Estrellas"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="#E6000000"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/distanciaMain" />
+
+    <TextView
+        android:id="@+id/comentariosMain"
+        android:layout_width="163dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/poppins_light"
+        android:padding="5dp"
+        android:text="ver comentarios +"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="#E6000000"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/distanciaMain" />
+
+    <TextView
+        android:id="@+id/descripcionMain"
+        android:layout_width="379dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="472dp"
+        android:background="#FFFFFF"
+        android:fontFamily="@font/poppins"
+        android:padding="5dp"
+        android:text="TFGFETREGRGRREGERR TFGFETREGRGRREGERR VTFGFETREGRGRREGERRTFGFETREGRGRREGERRVVVVTFGFETREGRGRREGERRV"
+        android:textColor="#D3000000"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
